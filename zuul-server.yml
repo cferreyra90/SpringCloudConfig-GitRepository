@@ -9,4 +9,4 @@ zuul:
   routes:
     echo-service:
       path: /ug/**
-      url: http://localhost:8443
+      url: https://localhost:8443

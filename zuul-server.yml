@@ -8,5 +8,5 @@ zuul:
  ignoredServices: '*'
   routes:
     echo-service:
-      path: /ug/**
+      path: /ug**
       url: https://localhost:8443

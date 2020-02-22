@@ -1,6 +1,5 @@
 server:
   port: 8080 #the default port used for zuul service
-
 zuul:
   ignoredServices: '*'
   host:

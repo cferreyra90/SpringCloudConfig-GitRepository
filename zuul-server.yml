@@ -5,7 +5,7 @@ zuul:
   ignoredServices: '*'
   host:
     routes:
-      sample-service: # Service to create as sample
+      jpa-service: # Service to create as sample
         path: /reunion/** #path that will be intercepted
         url: https://localhost:8443 #which url the request will e mapped to
         stripPrefix: false  #if zuul should replace the "/sample/" segment

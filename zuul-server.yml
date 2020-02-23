@@ -6,9 +6,4 @@ zuul:
     routes:
       cloud: 
         path: /** 
-        url: http://localhost:8091 
-   management: 
-    endpoints: 
-      web: 
-        exposure: 
-          include: 'routes'
+        url: http://localhost:8091

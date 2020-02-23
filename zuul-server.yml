@@ -6,6 +6,6 @@ zuul:
   ignoredServices: '*'
   host:
     routes:
-      cloud: 
+      demo-service: 
         path: /** 
         url: http://localhost:8091

@@ -3,9 +3,9 @@ server:
 zuul:
   routes:
     demo-service: 
-      path: /** 
+      path: /demo/** 
       url: http://localhost:8091
     jpa-service: 
-      path: /** 
+      path: /reunion** 
       url: https://localhost:8443
 

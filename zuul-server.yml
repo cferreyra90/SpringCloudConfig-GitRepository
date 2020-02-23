@@ -5,3 +5,7 @@ zuul:
     demo-service: 
       path: /** 
       url: http://localhost:8091
+    jpa-service: 
+      path: /** 
+      url: http://localhost:8091
+

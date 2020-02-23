@@ -1,11 +1,7 @@
 server:
   port: 8080 
 zuul:
-  debug:
-    request: true
-  ignoredServices: '*'
-  host:
-    routes:
-      demo-service: 
-        path: /** 
-        url: http://localhost:8091
+  routes:
+    demo-service: 
+      path: /** 
+      url: http://localhost:8091

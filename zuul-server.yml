@@ -7,3 +7,4 @@ zuul:
       demo-service: # Service to create as sample
         path: /demo/** #path that will be intercepted
         url: http://localhost:8091 #which url the request will e mapped t
+        serviceId: demo-service

@@ -1,10 +1,9 @@
 server:
-  port: 8080 #the default port used for zuul service
+  port: 8080 
 zuul:
   ignoredServices: '*'
   host:
     routes:
-      demo-service: # Service to create as sample
-        path: /** #path that will be intercepted
-        url: http://localhost:8091 #which url the request will e mapped t
-        serviceId: demo-service
+      cloud: 
+        path: /** 
+        url: http://localhost:8091 

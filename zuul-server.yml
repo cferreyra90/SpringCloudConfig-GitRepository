@@ -6,6 +6,6 @@ zuul:
       path: /demo/** 
       url: http://localhost:8091
     jpa-service: 
-      path: /reunion/** 
+      path: /jpae/** 
       url: https://localhost:8443
 

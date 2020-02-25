@@ -2,6 +2,9 @@ server:
   port: 8080 
 zuul:
   routes:
+    demo-service: 
+      path: /demo/** 
+      url: http://localhost:8091
     jpa-service: 
       path: /jpae/** 
       url: https://localhost:8443
